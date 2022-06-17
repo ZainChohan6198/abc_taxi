@@ -1,21 +1,14 @@
 <template>
-  <div class="titlepage-wrapper">
-    <div class="hero-wrapper pt-lg-5 pt-0 ">
-      <div class="layout" />
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6" />
-          <div class="col-xl-6">
-            <div class="right pl-2 pl-sm-0" :class="{isload:isload}">
-              <h1 class="premier">Premium Taxi Services</h1>
-              <strong>in Oldham</strong>
-              <p>Fast, Exemplary and Punctual</p>
-              <button class="hover-effect" @click="booking">
-                Book Now
-              </button>
-            </div>
-          </div>
-        </div>
+  <div class="titlepage-wrapper ">
+    <div class="hero-wrapper  pt-0 d-flex justify-content-end  px-5 ">
+      
+              <iframe class="py-2" className='bookerIframe'
+                src='https://dev.iclerk.io/scan2book/booker/4130a539143c4224b78cd6b0a436759a/e7bf47faa4fa1194/?iframe=true'
+                height="708" :style="{ border: '0' , borderRadius: '25px' ,
+              width: '500px' }" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+           
+         
+     
         <!--        <div class="row hero-btns py-3 py-lg-5">-->
         <!--          <div class="col-12 text-center">-->
         <!--            <div class="">-->
@@ -34,8 +27,8 @@
         <!--            </div>-->
         <!--          </div>-->
         <!--        </div>-->
+
       </div>
-    </div>
     <div class="features mt-5">
       <div class="container">
         <div class="row">
@@ -45,7 +38,8 @@
               Airport Transfer
             </h4>
             <p>
-              A2B Tommyfield Cars provide a fast and friendly service to the airport at an affordable price. We travel to and from any
+              A2B Tommyfield Cars provide a fast and friendly service to the airport at an affordable price. We travel
+              to and from any
               airport around the country. We also have a range of vehicles from mini bus to prestige so you can now ride
               in comfort. Our service is 24 hours a day 7 days a week. Need that holiday? No problem we got you
             </p>
@@ -56,7 +50,8 @@
               Competitive Pricing
             </h4>
             <p>
-              Looking for a cheap rate taxi? Sounds like you need to call us. A2B Tommyfield Cars are a well established firm with over
+              Looking for a cheap rate taxi? Sounds like you need to call us. A2B Tommyfield Cars are a well established
+              firm with over
               30 years of experience around the Oldham and Manchester area. We offer a fixed fare service for long
               journeys so you know exactly how much you pay before you start your journey.
             </p>
@@ -111,7 +106,8 @@
                 to download for free on Play store.
               </p>
               <div class="app-icons>">
-                <a href="https://play.google.com/store/apps/details?id=com.icabbi.a2btommyfieldcars&hl=en"><img alt="play store" src="~assets/img/googleplay-store-btn.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.icabbi.a2btommyfieldcars&hl=en"><img
+                    alt="play store" src="~assets/img/googleplay-store-btn.png"></a>
                 <img alt="app store" class="d-none" src="~assets/img/appstore-btn.png">
               </div>
             </div>
@@ -204,7 +200,8 @@
                       </h3>
                       <p>
                         Very good taxi service, always on time and the staff are really nice and easy to talk to.
-                        will definitely use them again and I recommend that everybody else does too. BEST TAXI SERVICE IN OLDHAM!!!!!!
+                        will definitely use them again and I recommend that everybody else does too. BEST TAXI SERVICE
+                        IN OLDHAM!!!!!!
                       </p>
                       <div class="client-info">
                         <div class="dp-cover">
@@ -213,7 +210,7 @@
                         <div class="rating">
                           <span>Emma wilson</span><span>-</span>
                           <span>Customer</span>
-                          <span>              <i class="fa fa-star" aria-hidden="true" />
+                          <span> <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" /></span>
@@ -281,7 +278,7 @@
                         <div class="rating">
                           <span>Graciano Luvunga</span><span>-</span>
                           <span>Customer</span>
-                          <span>              <i class="fa fa-star" aria-hidden="true" />
+                          <span> <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" />
                             <i class="fa fa-star" aria-hidden="true" /></span>

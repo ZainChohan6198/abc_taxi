@@ -9,8 +9,10 @@
               <p>{{ msg }}</p>
             </div>
             <div class="error-message" v-else>
-              <p>Please wait</p>
-              <i class="fa fa-spinner mt-2" aria-hidden="true"></i>
+              <iframe  className='bookerIframe'
+                src='https://dev.iclerk.io/scan2book/booker/4130a539143c4224b78cd6b0a436759a/e7bf47faa4fa1194/?iframe=true'
+                height="708" :style="{ border: '0' , borderRadius: '25px' ,
+              width: '500px' }" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -27,7 +29,8 @@
           <div class="col-md-12 col-lg-6 px-2 pl-lg-3 pb-4 pr-lg-0">
             <div class="booking-form rounded mt-md-5 mt-2">
               <form class="px-1 px-lg-3">
-                <i v-if="$route.path == '/form/personal-info'" class="fa fa-arrow-circle-left" aria-hidden="true" @click="back" />
+                <i v-if="$route.path == '/form/personal-info'" class="fa fa-arrow-circle-left" aria-hidden="true"
+                  @click="back" />
                 <nuxt-child />
                 <div class="container fare-next px-0 pt-2">
                   <div class="row m-0">
@@ -169,11 +172,13 @@
               </p>
               <p class="mb-4">
                 Enjoy an entirely new taxi experience with our web taxi booking system.
-                The new web system makes it even more easier to book a taxi and gives you full control of your booking with a touch of your finger tips.
+                The new web system makes it even more easier to book a taxi and gives you full control of your booking
+                with a touch of your finger tips.
               </p>
               <div class="start-content">
                 <img alt="logo" src="~assets/img/logo.png">
-                <h4>Everything is backed by A2B Tommyfield Cars. Free cancelation, Track your driver, ETA, Quotations and much more.</h4>
+                <h4>Everything is backed by A2B Tommyfield Cars. Free cancelation, Track your driver, ETA, Quotations
+                  and much more.</h4>
               </div>
             </section>
           </div>

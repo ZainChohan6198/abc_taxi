@@ -1,5 +1,3 @@
 import Vue from 'vue'
 
-if (!Vue.moment) {
-    Vue.use(VueMoment)
-}
+Vue.use(require('vue-moment'))
