@@ -49,7 +49,8 @@ export default {
     // SCSS file in the project
     '@/assets/css/font-awesome.min.css',
     '@/assets/css/app.scss',
-    '@/assets/css/fonts.css'
+    '@/assets/css/fonts.css',
+
   ],
   /*
   ** Plugins to load before mounting the App
