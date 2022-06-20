@@ -1,7 +1,6 @@
 import pkg from './package'
 
 export default {
-  mode: 'universal',
 
   /*
   ** Headers of the page
@@ -66,8 +65,7 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    ['@nuxtjs/dotenv', { filename: '.env.local' }]
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
