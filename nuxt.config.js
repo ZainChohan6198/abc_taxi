@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-  buildDir: 'dist',
+
   /*
   ** Headers of the page
   */
