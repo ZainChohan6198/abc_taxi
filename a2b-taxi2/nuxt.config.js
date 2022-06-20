@@ -6,6 +6,7 @@ export default {
   /*
   ** Headers of the page
   */
+  buildDir: 'dist',
   head: {
     title: 'A2B Tommyfield Cars',
     meta: [
