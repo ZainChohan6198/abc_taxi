@@ -2,10 +2,7 @@ import pkg from './package'
 
 export default {
   mode: 'universal',
-  server: {
-    port: 9191, // default: 3000
-    host: '0.0.0.0' // default: localhost
-  },
+
   /*
   ** Headers of the page
   */
